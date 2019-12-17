@@ -4,8 +4,6 @@ This portfolio is based on a a template from Codrops.
 
 [Article on Codrops](https://tympanus.net/codrops/?p=36043)
 
-[Demo](http://tympanus.net/Development/AnimatedGridsLayout/)
-
 ## Credits
 
 - [imagesLoaded](https://imagesloaded.desandro.com/) by Dave DeSandro
