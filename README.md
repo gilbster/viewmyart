@@ -2,8 +2,6 @@
 
 this portfolio is based on a a template where one can switch between little image previews that are scattered around the page. The images animate to a grid once an "explore" link is clicked.
 
-![Animated Grids Layout](https://tympanus.net/codrops/wp-content/uploads/2018/10/Animated-Grids-Layout_Featured.jpg)
-
 [Article on Codrops](https://tympanus.net/codrops/?p=36043)
 
 [Demo](http://tympanus.net/Development/AnimatedGridsLayout/)
