@@ -1,23 +1,12 @@
-Dimension by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+A website project for artist to create portfolios to share with the world.
 
 
-This is Dimension, a fun little one-pager with modal-ized (is that a word?) "pages"
-and a cool depth effect (click on a menu item to see what I mean). Simple, fully
-responsive, and kitted out with all the usual pre-styled elements you'd expect.
-Hope you dig it :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d662363d-84f2-43e8-949b-66c155cb0da6/deploy-status)](https://app.netlify.com/sites/viewmyart/deploys)
 
 Credits:
+	Theme: Dimension by HTML5 UP
+		html5up.net | @ajlkn
+		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 	Icons:
 		Font Awesome (fontawesome.io)
@@ -26,4 +15,4 @@ Credits:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
 		
-		[![Netlify Status](https://api.netlify.com/api/v1/badges/d662363d-84f2-43e8-949b-66c155cb0da6/deploy-status)](https://app.netlify.com/sites/viewmyart/deploys)
+		
