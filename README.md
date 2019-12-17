@@ -1,6 +1,6 @@
-# Animated Grid Previews
+# Alexander Gilbertson Photography Portfolio
 
-A template where one can switch between little image previews that are scattered around the page. The images animate to a grid once an "explore" link is clicked.
+this portfolio is based on a a template where one can switch between little image previews that are scattered around the page. The images animate to a grid once an "explore" link is clicked.
 
 ![Animated Grids Layout](https://tympanus.net/codrops/wp-content/uploads/2018/10/Animated-Grids-Layout_Featured.jpg)
 
@@ -12,7 +12,6 @@ A template where one can switch between little image previews that are scattered
 
 - [imagesLoaded](https://imagesloaded.desandro.com/) by Dave DeSandro
 - [TweenMax](https://greensock.com/tweenmax) by Greensock
-- Images from [Unsplash.com](https://unsplash.com/)
 
 ## License
 This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
