@@ -19,12 +19,11 @@ aj@lkn.io | @ajlkn
 
 Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
 	Icons:
 		Font Awesome (fontawesome.io)
 
 	Other:
 		jQuery (jquery.com)
 		Responsive Tools (github.com/ajlkn/responsive-tools)
+		
+		[![Netlify Status](https://api.netlify.com/api/v1/badges/d662363d-84f2-43e8-949b-66c155cb0da6/deploy-status)](https://app.netlify.com/sites/viewmyart/deploys)
