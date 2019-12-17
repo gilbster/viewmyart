@@ -1,6 +1,6 @@
 # Alexander Gilbertson Photography Portfolio
 
-This portfolio is based on a a template from Codrops.
+This portfolio is based on a template from Codrops.
 
 [Article on Codrops](https://tympanus.net/codrops/?p=36043)
 
