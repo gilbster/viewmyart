@@ -1,6 +1,6 @@
 # Alexander Gilbertson Photography Portfolio
 
-this portfolio is based on a a template where one can switch between little image previews that are scattered around the page. The images animate to a grid once an "explore" link is clicked.
+This portfolio is based on a a template from Codrops.
 
 [Article on Codrops](https://tympanus.net/codrops/?p=36043)
 
