@@ -95,6 +95,8 @@ main {
   }
   .case {
 	  display: none;
+	  font-size: 1em;
+	  position: relative;  
 }
 a {
 	text-decoration: none;
