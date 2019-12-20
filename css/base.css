@@ -264,9 +264,9 @@ a:focus {
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 40px auto auto auto auto;
 	grid-template-areas: 	'back social'
-							'title title'
+		'... select'					
+		'title title'
 							'text text'
-							'select select'
 							'reel reel';
 }
 
