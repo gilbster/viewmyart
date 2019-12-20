@@ -92,8 +92,6 @@ main {
 }
 .active {
 	display: flex !important;
-	height: 315px;
-	width: 560px;
   }
   .case {
 	  display: none;
@@ -264,8 +262,7 @@ a:focus {
 	grid-template-columns: 50% 50%;
 	grid-template-rows: 40px auto auto auto auto;
 	grid-template-areas: 	'back social'
-		'... select'					
-		'title title'
+							'title select'
 							'text text'
 							'reel reel';
 }
@@ -378,7 +375,8 @@ transform: scale(-1, 1);
 }
 
 .reel__img {
-	width: 500px;
+	width: 80vw;
+	height: 50vh;
 	margin-bottom: 1.5rem;
 	float: left;
 	pointer-events: auto !important;
@@ -496,6 +494,10 @@ transform: scale(-1, 1);
 @media screen and (min-width: 53em) {
 	main {
 		overflow: hidden;
+	}
+	.reel__img {
+		width: 560px;
+		height: 300px;
 	}
 	.frame {
 		position: absolute;
