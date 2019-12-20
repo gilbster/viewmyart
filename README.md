@@ -1,18 +1,17 @@
-A website project for artist to create portfolios to share with the world.
+Portfolio Created for BG Vids based on 
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d662363d-84f2-43e8-949b-66c155cb0da6/deploy-status)](https://app.netlify.com/sites/viewmyart/deploys)
+# Rotated Revealer
 
-Credits:
-	Theme: Dimension by HTML5 UP
-		html5up.net | @ajlkn
-		Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+[Article on Codrops](https://tympanus.net/codrops/?p=40167)
 
-	Icons:
-		Font Awesome (fontawesome.io)
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
-		
-		
+## Credits
+
+- [imagesLoaded](https://imagesloaded.desandro.com/) by Dave DeSandro
+- [Charming](https://github.com/yuanqing/charming) by Yuan Qing
+- [TweenMax](https://greensock.com/tweenmax) by Greensock
+- Images from [Unsplash.com](https://unsplash.com/)
+
+## License
+This resource can be used freely if integrated or build upon in personal or commercial projects such as websites, web apps and web templates intended for sale. It is not allowed to take the resource "as-is" and sell it, redistribute, re-publish it, or sell "pluginized" versions of it. Free plugins built using this resource should have a visible mention and link to the original work. Always consider the licenses of all included libraries, scripts and images used.
