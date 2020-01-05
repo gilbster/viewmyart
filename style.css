@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+*:focus {outline:none}
+
+body {
+  cursor: url(cursor.png), auto;
+}
+
+h1 {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  font-size: medium;
+  vertical-align: middle;
+}
+
+#content {
+  text-align: center;
+  align-items: center;
+vertical-align: middle;
+margin-top: 5%;
+
+margin-left: 15%;
+margin-right: 15%;
+position: flex;
+}
+img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+    display: block !important;
+  }
+.case {
+      display: none;
+  }
+button {
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3.2em;
+    padding: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+button:focus {
+    border: 0;
+    outline: 0;
+}
+button:active {
+    transform: scale(1.2);
+    background-color: white;
+    border: 0;
+    outline: 0;
+}
+  #prev {
+    position: absolute;
+    left: 5vw;
+    bottom: 50vh;
+  }
+  #next {
+    position: absolute;
+    right: 5vw;
+    bottom: 50vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+      }
+  button:hover{
+      border: none;
+      text-decoration: none;
+      color: blue;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+#disabled:hover {
+  color: grey;
+  pointer-events: none;
+}
+button.disabled:hover {
+  color: grey;
+}
