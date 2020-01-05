@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nia's Art</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+<h1>Nia's Art</h1>
+  <div class="case active" id="content"><img src="IMG_1.jpg" width="70%"><br> dolores optio necessitatibus.</div>
+  <div class="case" id="content"><img src="IMG_2.jpg" width="50%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_3.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_4.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_5.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_6.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_7.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_8.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_9.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_10.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_11.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+  <div class="case" id="content"><img src="IMG_12.jpg" width="70%"><br>Lorem ipsum dolor sit</div>
+
+<button id="prev">&#8249;</button>
+<button id="next">&#8250;</button>
+
+
+</body>
+<script>
+$(function() {
+var nextBtn = $("#next"),
+    prevBtn = $("#prev");
+
+nextBtn.on('click', function(e) {
+    var active = $(".active");
+    prevBtn.prop("disabled",false);
+    var next = active.next('.case');
+    if (next.length) {
+        active.removeClass('active').removeClass('disabled');
+        next.addClass('active');
+    }else{$(this).attr("disabled","true").addClass("disabled");}
+});
+prevBtn.on('click', function(e) {nextBtn.prop("disabled",false);
+    var active = $(".active");
+    var prev = active.prev('.case');
+    if (prev.length) {
+        active.removeClass('active').removeClass('disabled');
+        prev.addClass('active');
+    }else{$(this).attr("disabled","true").addClass("disabled");}
+});
+});
+</script>
+</html>
